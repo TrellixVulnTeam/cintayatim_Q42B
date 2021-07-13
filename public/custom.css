@@ -1,0 +1,95 @@
+/* IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+/* Theme Color */
+.bg_cy {
+  background-color: #0b83f3;
+}
+
+.bg_cysection {
+  background-color: #c6e4ff;
+}
+
+.clr_blue {
+  color: #0b83f3;
+}
+
+.clr_white {
+  color: whitesmoke;
+}
+
+/* Tag HTML Componen */
+body {
+  /* min-height: 2000px; */
+  font-family: "Mukta";
+  color: #3f3f3f;
+}
+
+hr {
+  border: 3px solid #0b83f3;
+  width: 250px;
+  margin: auto; /* ini untuk center posisi*/
+  border-radius: 10px;
+}
+
+/* CSS Gallery */
+
+.gallery {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  /* padding: 2px; */
+  margin: 10px;
+  border-radius: 20px;
+  border: 3px solid #87c5fc;
+  box-shadow: 2px 2px 10px #3f3f3f;
+  transition: 0.5s, box-shadow 1ms, border 1ms;
+}
+
+.gallery:hover {
+  /* position: relative; */
+  object-fit: contain;
+  scale: 200%;
+  border: 0px;
+  box-shadow: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* TOMBOL TOP */
+.top_button {
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  border-radius: 100%;
+  border: 1px solid #0b83f3;
+  background-color: #0b83f3;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+.top_button:hover {
+  color: #0b83f3;
+  background-color: whitesmoke;
+  border: 1px solid #0b83f3;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.anim_text {
+  color: #202020;
+  transition: 0.5s;
+}
+
+.anim_text:hover {
+  text-shadow: 2px 2px 5px #0b83f3;
+  opacity: 90%;
+  position: relative;
+  cursor: pointer;
+}
